@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    text-align: center;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/mainPic.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.logo-navbar {
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.font-navbar {
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 29.5px
+}
+.font-navbar:hover, .font-navbar:visited , .font-navbar:active, .font-navbar:link{
+    color:white;
+    text-decoration: none;
+
+}
+.button-navbar:visited, .button-navbar:hover{
+    color:white;
+
+}
+.button-navbar:link, .button-navbar:visited {
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: #27ae60;
+    border-radius: 100px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading-primary {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.paragraph-primary {
+    color: white;
+    font-size:13px;
+    text-align: center;
+    margin-bottom:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+@media screen and (max-width: 2000px) and (min-width: 1400px) {
+    .heading-primary{
+        margin-top:20%;
+        font-size:50px;
+
+    }
+    .paragraph-primary{
+        font-size:16px;
+        padding-right:0px;
+        padding-left:0px;
+
+    }
+    .heading-primary{
+        font-size:50px;
+
+    }
+
+    
+}
+@media screen and (max-width: 995px) and (min-width: 750px) {
+
+    .button-costum{
+        margin: 0 auto;
+        display: block;
+        
+    }
+    .left{
+        float:none;
+        padding:0;
+        margin:0;
+    }
+    .right{
+        float:none;
+        padding:0;
+        margin:0;
+
+    }
+}
+
+.left{
+    float: left;
+    margin-left:40px;
+
+}
+.right{
+    float:right;
+    margin-right:40px;
+
+}
+.button-costum{
+    width: 200px;
+    border-radius: 100px;
+    font-size:20px;
+
+}
+
+.gray-bg{
+    width: 70% ;
+    margin: .5% auto;
+    background-color: rgb(236,240,241, 0.5);
+    padding: 1%
+}
+
+.body-bg{
+    background-image: url(../Images/road-sun-rays-path.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.custom-control-label{
+    color: white;
+}
+
+.about, .txt{
+    color: white;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.voting-div{
+    width: 80%;
+    padding: 10%;
+    background-color: rgb(236,240,241, 0.3);
+    margin: 10% auto;
+
+}
+
+.vote-card{
+    background-color: rgb(236,240,241, 0.9);
+    text-align: center;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.vote-card:link{
+    background-color: rgb(46,204,113, 0.5)!important;
+    color: white;
+}
+
+.vote-card:active{
+    background-color: rgb(46,204,113, 0.5)!important;
+    color: white;
+}
+
+.vote-card:visited{
+    background-color: rgb(46,204,113, 0.5) !important;
+    color: white;
+}
+
+.vote-card:hover{
+    border: 5px solid rgb(46,204,113)!important;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .vote-card{
+        margin: 5% auto;
+    }
+  }
+  
+
+.card-body{
+    color: black;
+     font-weight: bold;
+}
+
+.thank-you{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.left{
+    margin-left: 40% !important;
+}
+
+.right{
+    margin-right: 40% !important;
+}
+
+.btn-end{
+    display: block;
+    padding:1%;
+    margin: 0 auto;
+    width: 15%;
+}
+
+.img-vote{
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+.vote-bg{
+    background-image: url(../Images/voting-bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.vote-h{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin: 5% 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/mainPic.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.logo-navbar {
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.black-bg{
+    background-color: rgb(0,0,0, 0.3);
+    width: 60%;
+    padding: 3%;
+    margin: 2% auto;
+}
+
+.font-navbar {
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 29.5px
+}
+.font-navbar:hover, .font-navbar:visited , .font-navbar:active, .font-navbar:link{
+    color:white;
+    text-decoration: none;
+
+}
+.button-navbar:visited, .button-navbar:hover{
+    color:white;
+    text-decoration: none;
+
+}
+
+
+.button-navbar:link, .button-navbar:visited {
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #27ae60;
+    border-radius: 100px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading-primary {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.paragraph-primary {
+    color: white;
+    font-size:13px;
+    text-align: center;
+    margin: 5% 0 0 0;
+
+}
+@media screen and (max-width: 2000px) and (min-width: 1400px) {
+    .heading-primary{
+        margin-top:20%;
+        font-size:50px;
+
+    }
+    .paragraph-primary{
+        font-size:16px;
+        padding-right:0px;
+        padding-left:0px;
+
+    }
+    .heading-primary{
+        font-size:50px;
+
+    }
+
+    
+}
+@media screen and (max-width: 995px) and (min-width: 750px) {
+   
+}
+@media screen and (max-width: 1400px) and (min-width: 1000px){
+    .header-about-us{
+        font-size:30px
+    }
+}
+
+.button-costum{
+    width: 40%;
+    margin: 10% 0 0 0;
+
+}
+.logo-navbar-white{
+    height:50px;
+}
+
+.main-submit-page{
+    height: 30vh;
+    
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+}
+
+.buttons-row{
+    padding: 0 12%;
+}
+
+.btn-custom-submit{
+    padding: 5px 40px;
+    background-color: #27ae60;
+}
+.div-largues{
+    width:100px;
+    display: inline-block;
+}
+.bigger-wrapper{
+    height: 100px;
+    width: 100%;
+}
+.header-hide{
+    text-align: center;
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+
+
+}
+
+.navbar-toggler-icon{
+    border:2px solid #27ae60;
+    border-radius: 100%;
+    color: #27ae60;
+    font-size: 20px;
+}
+
+.main-about-us{
+    height: 100vh;
+    background-image:   linear-gradient(to bottom right, hsla(168, 76%, 36%, 0.3) , hsla(168, 76%, 42%, 0.3)) , url(../Images/scenic-view-of-mountain-during-daytime-4618597.jpg);
+    background-size: cover;
+}
+.about-section{
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.header-about-us{
+    opacity: 1;
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+.text-about-us{
+    font-size:25px;
+    opacity: 4;
+    color:#000000
+}
+.questions{
+    color:#27ae60;
+    opacity: 1;
+    font-size:55px;
+    font-weight: 700;
+}
+
+.submit-bg{
+    background-image: url(../Images/submit-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.submit-btn{
+    font-size: 20px;
+    color: white;
+    padding: 3% 5%;
+    background-color: #27ae60;
+    border-radius: 100px;
+    display: block;
+    margin: 2% auto;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.buttons{
+    display: block;
+    margin: 0 auto;
+}
